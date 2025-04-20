@@ -1,0 +1,45 @@
+{
+   "name": "intejie-themes",
+   "version": "0.0.5",
+   "displayName": "🎨 intejie's themes",
+   "description": "My custom themes for Visual Studio Code",
+   "publisher": "intejie",
+   "icon": "images/icon.png",
+   "engines": {
+      "vscode": "^1.81.0"
+   },
+   "categories": [
+      "Themes"
+   ],
+   "keywords": [
+      "theme",
+      "0-0",
+      "light theme",
+      "dark theme",
+      "intejie"
+   ],
+   "contributes": {
+      "themes": [
+         {
+            "label": "オブラカ — Dark",
+            "uiTheme": "vs-dark",
+            "path": "themes/dark.json"
+         },
+         {
+            "label": "オブラカ — Dark #2",
+            "uiTheme": "vs-dark",
+            "path": "themes/dark-2.json"
+         },
+         {
+            "label": "オブラカ — Light",
+            "uiTheme": "vs",
+            "path": "themes/light.json"
+         }
+      ]
+   },
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/intejie/vscode-themes.git"
+   }
+}
